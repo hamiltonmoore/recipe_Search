@@ -9,7 +9,15 @@ body {
 
 header {
     padding: 2rem;
-    /* background-color: #F8C471; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.popup {
+    font-style: italic;
+    font-size: 2rem;
+    margin-top: 2.6rem;
+    margin-right: 7rem;
 }
 
 .boxes {
@@ -34,5 +42,4 @@ input {
     font-style: italic;
     outline: none;
     width: 30rem;
-    /* background-color: #F8C471; */
 }

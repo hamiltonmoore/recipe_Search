@@ -5,11 +5,9 @@ let resultsDisplay = document.querySelector(".boxes");
 search.addEventListener("keyup", function (event) {
     if (event.keyCode === 13) {
 
-        // let popup = document.querySelector(".popup");
-        // var a = 'click an image';
-        // var b = popup.createElement('div');
-        // b.innerHTML = a;
-
+        let popupText = `<p>click an image for recipe</p>`
+        let popup = document.querySelector(".popup");
+        popup.innerHTML = popupText;
 
         resultsDisplay.innerHTML = '';
         let url = "http://recipepuppyproxy.herokuapp.com/api/?q=" + search.value;
